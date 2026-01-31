@@ -24,11 +24,6 @@ Developers own 100% of their creations. The engine is developed transparently wi
 
 Roam Engine started as an experimental open-world engine project focused on GTA-style gameplay mechanics, large map streaming, and real-time simulation systems. Today, it continues to evolve into a flexible and powerful engine platform.
 
----
-
-![Roam Engine Editor Preview](https://raw.githubusercontent.com/placeholder-assets/roam-engine/main/screenshots/editor_preview.jpg)
-
----
 
 ## Building Roam Engine
 
