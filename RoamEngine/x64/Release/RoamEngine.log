@@ -1,0 +1,206 @@
+﻿  Engine.cpp
+  main.cpp
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\Core\Engine.cpp(10,10): error C1083: Não é possível abrir arquivo incluir: 'TimeManager.h': No such file or directory
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(26,5): error C2027: uso de tipo indefinido 'EngineCore'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(10,7):
+      consulte a declaração de 'EngineCore'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(26,13): error C2039: ' Run': não é um membro de 'std::unique_ptr<EngineCore,std::default_delete<EngineCore>>'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      consulte a declaração de 'std::unique_ptr<EngineCore,std::default_delete<EngineCore>>'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(52,13): error C2027: uso de tipo indefinido 'InputManager'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(12,7):
+      consulte a declaração de 'InputManager'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(52,20): error C2039: ' Update': não é um membro de 'std::unique_ptr<InputManager,std::default_delete<InputManager>>'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      consulte a declaração de 'std::unique_ptr<InputManager,std::default_delete<InputManager>>'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(55,13): error C2027: uso de tipo indefinido 'ScriptManager'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(13,7):
+      consulte a declaração de 'ScriptManager'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(55,21): error C2039: ' Update': não é um membro de 'std::unique_ptr<ScriptManager,std::default_delete<ScriptManager>>'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      consulte a declaração de 'std::unique_ptr<ScriptManager,std::default_delete<ScriptManager>>'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(58,13): error C2027: uso de tipo indefinido 'RenderingSystem'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(11,7):
+      consulte a declaração de 'RenderingSystem'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(58,24): error C2039: ' Render': não é um membro de 'std::unique_ptr<RenderingSystem,std::default_delete<RenderingSystem>>'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      consulte a declaração de 'std::unique_ptr<RenderingSystem,std::default_delete<RenderingSystem>>'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(61,17): error C2027: uso de tipo indefinido 'InputManager'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(12,7):
+      consulte a declaração de 'InputManager'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\main.cpp(61,24): error C2039: ' ShouldQuit': não é um membro de 'std::unique_ptr<InputManager,std::default_delete<InputManager>>'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\memory(3376,7):
+      consulte a declaração de 'std::unique_ptr<InputManager,std::default_delete<InputManager>>'
+  
+  LuaManager.cpp
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(14,9): error C3861: 'lua_close': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(21,16): error C3861: 'luaL_newstate': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(28,5): error C3861: 'luaL_openlibs': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(37,9): error C3861: 'luaL_dostring': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(37,52): error C2065: 'LUA_OK': identificador não declarado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(38,58): error C3861: 'lua_tostring': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(38,19): error C2593: 'operator <<' é ambíguo
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(480,39):
+      poderia ser 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(448,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(430,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(412,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(394,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(376,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(358,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(340,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(322,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(303,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(277,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(258,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(224,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(206,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(200,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(194,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(189,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(475,20):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<<void>(std::nullptr_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(688,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(732,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(768,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(813,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(930,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(936,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(941,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(947,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(955,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char8_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(961,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char8_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(969,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,wchar_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(972,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const wchar_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(976,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char16_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(978,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char32_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(986,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char16_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(988,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char32_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(1031,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(38,19):
+      ao tentar corresponder a lista de argumentos '(std::basic_ostream<char,std::char_traits<char>>, <erro>)'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(39,9): error C3861: 'lua_pop': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(47,5): error C3861: 'lua_getglobal': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(48,10): error C3861: 'lua_isfunction': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(50,9): error C3861: 'lua_pop': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(55,9): error C3861: 'lua_pcall': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(55,41): error C2065: 'LUA_OK': identificador não declarado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(56,74): error C3861: 'lua_tostring': identificador não encontrado
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(56,62): error C2593: 'operator <<' é ambíguo
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(480,39):
+      poderia ser 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(448,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(430,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(412,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(394,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(376,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(358,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(340,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(322,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(303,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(277,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(258,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(224,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(206,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(200,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(194,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(189,39):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(475,20):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<<void>(std::nullptr_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(688,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(732,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(768,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(813,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(930,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(936,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(941,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(947,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(955,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char8_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(961,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char8_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(969,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,wchar_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(972,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const wchar_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(976,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char16_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(978,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char32_t)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(986,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char16_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(988,31):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char32_t *)'
+      C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(1031,32):
+      ou       'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)'
+      C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(56,62):
+      ao tentar corresponder a lista de argumentos '(std::basic_ostream<char,std::char_traits<char>>, <erro>)'
+  
+C:\Users\gabpl\source\repos\RoamEngine\RoamEngine\src\LuaManager.cpp(57,9): error C3861: 'lua_pop': identificador não encontrado

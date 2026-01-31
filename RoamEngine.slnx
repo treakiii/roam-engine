@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="RoamEngine/RoamEngine.vcxproj" Id="12d026fc-9ce8-4311-89c4-d5904c852637" />
+</Solution>
